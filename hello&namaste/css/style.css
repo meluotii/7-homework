@@ -1,0 +1,164 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.caption, .header, .title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.top .caption {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    opacity: 0.5;
+    margin: 90px 0 20px 0;
+}
+
+.top .header {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #27b4b6;
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+}
+
+.top .description {
+    font-size: 18px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.block-column {
+    margin: 58px 0 138px 0;
+    font-size: 0;
+    
+}
+
+.block-column .cell {
+    width: 232px;
+    display: inline-block;
+    padding: 57px 0 45px 0;
+    
+}
+
+.block-column .cell:hover {
+    background-color: #27b4b6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+.block-column .cell:hover .title,
+.block-column .cell:hover .text {
+    color: white;
+    
+}
+
+
+.block-column .icon-anchor {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-image: url(../images/anchor.png);    
+}
+
+
+.block-column .icon-diamond {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-image: url(../images/diamond.png);
+}
+
+.block-column .icon-eyeglasses {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-image: url(../images/eyeglasses.png);
+}
+
+.block-column .icon-monitor {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-image: url(../images/monitor.png);
+    cursor: pointer;
+}
+
+.block-column .title {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.block-column .text {
+    padding: 35px;
+    opacity: 0.5;
+}
+
+.block-column .cell:hover .icon-anchor,
+.block-column .cell:hover .icon-diamond,
+.block-column .cell:hover .icon-eyeglasses,
+.block-column .cell:hover .icon-monitor {
+    background-position: 0 -64px;
+}
+

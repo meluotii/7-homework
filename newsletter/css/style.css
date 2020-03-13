@@ -1,0 +1,147 @@
+body {
+    background: #bac5db;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.block-form {
+    background-color: #353a45;
+    width: 666px;
+    margin: 104px auto;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 26px 49px rgba(35, 69, 133, 0.28);
+}
+
+.block-form .gradient {
+    width: 92px;
+    height: 92px;
+    background: linear-gradient(31deg, #48a9e6, #9372bf);
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: -105px;
+    box-shadow: 0 3px 0 rgba(35, 69, 133, 0.13);
+    display: flex;
+    align-items: center;
+}
+
+.block-form .borderline {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 0 3px 0 rgba(35, 69, 133, 0.13);
+    background-color: transparent;
+    border: 3px solid white;
+    margin: 0 auto;
+   
+}
+
+.block-form .icon {
+    margin: 19px 0 0 14px;
+}
+
+.block-form .caption {
+    font-weight: bold;
+    color: #538fff;
+    font-size: 48px;
+    text-align: center;
+    margin: 27px 0 24px 0;
+}
+
+.block-form .description {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.block-form .form-wrapper {
+    display: flex;
+}
+
+.block-form [type="email"] {
+    height: 52px;
+    padding: 0 17px;
+    border-radius: 8px;
+    flex-grow: 1;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #666;
+    transition-duration: 0.3s;
+    box-shadow: 0 4px 0 #d1d4d7e1;
+}
+
+.block-form [type="email"]:focus {
+    box-shadow: 0 0 0 2px #3e69b9 inset;
+}
+
+.block-form [type="submit"] {
+    height: 52px;
+    border-radius: 8px;
+    background-color: #538fff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 0 32px;
+    margin: 0 0 0 13px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.block-form [type="submit"]:hover {
+    background-color: #3e69b9;
+}
+
+.block-form .info {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    margin: 32px 0 0 0;
+    text-align: center;
+    opacity: 0.5;
+}
